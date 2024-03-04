@@ -55,7 +55,9 @@ navItemStyle[':hover'] = {
 Navbar.propTypes={
     title:PropTypes.string,
     title2 : PropTypes.string,
-    title3: PropTypes.string}
+    title3: PropTypes.string
+    //title: PropTypes.string.isRequired   In this, its must for the user to pass this, if not passed, the code will throw error
+}
 
 //Suppose no prop's element is passed then the default values will be passed which you can mention below
 Navbar.defaultProps={
