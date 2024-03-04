@@ -51,11 +51,14 @@ navItemStyle[':hover'] = {
     transform: 'scale(1.1)',
 };
 
+//propTypes are defining  of datatypes of the props that are passed on a component.
 Navbar.propTypes={
     title:PropTypes.string,
     title2 : PropTypes.string,
     title3: PropTypes.string}
-Navbar.propTypes={
+
+//Suppose no prop's element is passed then the default values will be passed which you can mention below
+Navbar.defaultProps={
     title: 'Stranger',
     title2: 'About',
     title3: 'Contact',
